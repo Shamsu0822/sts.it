@@ -1,0 +1,138 @@
+body{
+    background-image: url(./img/background.jpg);    
+    background-size: cover;
+    background-repeat: no-repeat;
+    position:;
+    height: 600px;
+    width: 100%;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+}
+.header{
+    height: 20px;
+    text-align:center;
+    background-color: rgba(243,128,32,255);
+    grid-column: 1/13;
+}
+/* hero start */
+.hero{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    font-size: 15px;
+    color: white;
+    
+}
+.logo{
+    grid-column:1/7;
+}
+.logo img{
+    height: 50px;
+    width: 220px;
+}
+.home{
+    grid-column: 7/8;
+    text-align: center;
+    margin-top: 17.5px;
+}
+.courses{
+    grid-column: 8/9;
+    text-align: center;
+    margin-top: 17.5px;
+    margin-left: 20px;
+}
+.about{
+    grid-column: 9/11;
+    text-align: center;
+    margin-top: 17.5px;
+}
+.contact{
+    grid-column: 11/12;
+    text-align: center;
+    margin-top: 17.5px;
+}
+/* ico start */
+.iconn{
+    margin-top: 400px;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+.ielts{
+    grid-column: 1/4;
+}
+.graphic{
+    grid-column: 4/7;
+}
+.web{
+    grid-column: 7/10;
+}
+.sams{
+    grid-column: 10/-1;
+}
+.box1{
+    background-color:rgba(227,23,56,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box2{
+    background-color:rgba(243,128,32,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box3{
+    background-color:rgba(48,122,213,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+.box4{
+    background-color:rgba(16,196,92,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    border-radius: 10px;
+}
+/* hover start */
+.box1:hover{
+    background-color:rgba(227,23,56,255) ;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+    zoom: 120%;
+    border-radius: 10px;
+}
+.box2:hover{
+    background-color:rgba(243,128,32,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    zoom: 120%;
+    border-radius: 10px;
+}
+.box3:hover{
+    background-color:rgba(48,122,213,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    zoom: 120%;
+    border-radius: 10px;
+}
+.box4:hover{
+    background-color:rgba(16,196,92,255) ;
+    height: 200px;
+    width: 200px;
+    margin:auto ;
+    zoom: 120%;
+    border-radius: 10px;
+}
